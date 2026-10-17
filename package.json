@@ -1,0 +1,23 @@
+{
+  "name": "yarn-local-link",
+  "version": "1.0.0",
+  "description": "CLI to link a Node.js project to a local library that is normally fetched from npm, using Yarn.",
+  "bin": {
+    "yarn-local-link": "./yarn-local-link.js"
+  },
+  "files": [
+    "yarn-local-link.js"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": [
+    "yarn",
+    "link",
+    "local",
+    "development",
+    "cli"
+  ],
+  "license": "MIT",
+  "preferGlobal": true
+}
